@@ -1,5 +1,6 @@
 # require modules here
 require "yaml"
+require "pry"
 
 def load_library(filePath)
   # code goes here
@@ -17,7 +18,7 @@ def load_library(filePath)
   # lib[key][0] is English emoticon
   # lib[key][1] is Japanese equivalent
   lib.each_key { |n| 
-  
+    binding.pry
     
   
   
