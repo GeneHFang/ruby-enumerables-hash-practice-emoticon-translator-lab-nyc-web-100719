@@ -30,7 +30,7 @@ def load_library(filePath)
   
 end
 
-load_library("emoticons")
+load_library("./lib/emoticons.yml")
 
 def get_japanese_emoticon
   # code goes here
