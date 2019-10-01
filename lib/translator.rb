@@ -27,8 +27,8 @@ def load_library(filePath)
     
   
   
-  #newHash
-  puts lib
+  newHash
+  #puts lib
   
 end
 
