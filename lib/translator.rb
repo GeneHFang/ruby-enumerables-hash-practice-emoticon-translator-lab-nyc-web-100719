@@ -33,8 +33,10 @@ def load_library(filePath)
 end
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(filePath, englishEmoticon)
   # code goes here
+  
+  
   
   
   
