@@ -7,7 +7,7 @@ def load_library(filePath)
   
   lib = YAML.load_file(filePath)
   
-  newHash = new.Hash
+  newHash = Hash.new
   
   newHash = {
     get_meaning: new.Hash,
