@@ -26,7 +26,7 @@ def load_library(filePath)
   
   
   
-  puts lib
+  lib
   
 end
 
