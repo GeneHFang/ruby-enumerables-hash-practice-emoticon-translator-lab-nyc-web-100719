@@ -18,13 +18,13 @@ def load_library(filePath)
   # lib[key][0] is English emoticon
   # lib[key][1] is Japanese equivalent
   lib.each { |key, value| 
-    binding.pry
-    
-  
+    newHash[:get_emoticon][value[0]] = value[1]
+    newHash[:get_meaning][value[1]] = key
   
   }
   
-  
+  binding.pry
+    
   
   
   #newHash
