@@ -17,7 +17,7 @@ def load_library(filePath)
   #iterate through each key and place appropriately
   # lib[key][0] is English emoticon
   # lib[key][1] is Japanese equivalent
-  lib.each_key { |n| 
+  lib.each { |key, value| 
     binding.pry
     
   
