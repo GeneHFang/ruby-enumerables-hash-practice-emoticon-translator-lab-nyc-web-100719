@@ -10,8 +10,8 @@ def load_library(filePath)
   newHash = Hash.new
   
   newHash = {
-    get_meaning: new.Hash,
-    get_emoticon: new.Hash
+    get_meaning: Hash.new,
+    get_emoticon: Hash.new
   }
   
   #iterate through each key and place appropriately
