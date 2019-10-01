@@ -49,6 +49,9 @@ def get_english_meaning(filePath, japaneseEmoticon)
   # code goes here
   hash = load_library(filePath)
   
-  
-  
+  if (hash[:get_meaning].has_key?(japaneseEmoticon))
+    return hash[:get_meaning][japaneseEmoticon]
+  else
+    return "Sorry, this emoticon was not found in our database!"
+  end
 end
