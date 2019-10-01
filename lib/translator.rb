@@ -26,7 +26,7 @@ def load_library(filePath)
   
   
   
-  lib
+  newHash
   
 end
 
