@@ -45,8 +45,10 @@ def get_japanese_emoticon(filePath, englishEmoticon)
   
 end
 
-def get_english_meaning(filePath, )
+def get_english_meaning(filePath, japaneseEmoticon)
   # code goes here
-  hash = load_library
+  hash = load_library(filePath)
+  
+  
   
 end
